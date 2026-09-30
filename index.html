@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Morgan Executive Search | Confidential Executive & Board Search</title>
+<meta name="description" content="Morgan Executive Search is an independent executive search practice led by Isabella Morgan, specializing in confidential executive and board-level assignments.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6F7F9;--surface:#FFFFFF;--ink:#17212E;--muted:#55627A;--line:#D9DEE6;--deep:#0E1B2C;--deep-ink:#EEF1F5;--deep-muted:#A9B4C4;--accent:#8A6A3B;--accent-on-deep:#C9A66B;
+--serif:"Source Serif 4",Georgia,"Times New Roman",serif;--sans:"Public Sans",system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0B1522;--surface:#111F31;--ink:#E8ECF2;--muted:#9AA7BA;--line:#24344A;--deep:#08111C;--accent:#C9A66B}}
+:root[data-theme="dark"]{--bg:#0B1522;--surface:#111F31;--ink:#E8ECF2;--muted:#9AA7BA;--line:#24344A;--deep:#08111C;--accent:#C9A66B}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 17px/1.65 var(--sans)}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.15;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(28px,4vw,40px);margin-bottom:20px}
+h3{font-size:22px;margin-bottom:8px}
+p{margin:0 0 16px;max-width:66ch}
+.muted{color:var(--muted)}
+
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--deep);color:var(--deep-ink);border-bottom:1px solid #1E2E44}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:72px}
+.logo{text-decoration:none;line-height:1.2}
+.logo b{display:block;font:600 15px var(--sans);letter-spacing:.2em}
+.logo span{display:block;font:400 10.5px var(--sans);letter-spacing:.18em;color:var(--deep-muted);margin-top:3px}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0}
+nav a{text-decoration:none;font-size:14px;color:var(--deep-muted);padding:6px 0;border-bottom:1px solid transparent}
+nav a:hover{color:var(--deep-ink);border-color:var(--accent-on-deep)}
+.menu-btn{display:none;background:none;border:1px solid #2B3D57;color:var(--deep-ink);padding:8px 14px;font:500 14px var(--sans);cursor:pointer}
+
+.hero{background:var(--deep);color:var(--deep-ink);padding:110px 0 120px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-120px;top:0;bottom:0;width:38%;border-left:1px solid #22344D;background:linear-gradient(90deg,rgba(201,166,107,.05),transparent)}
+.hero .wrap{position:relative;z-index:1}
+.hero h1{font-size:clamp(40px,7vw,84px);letter-spacing:.02em;font-weight:400;max-width:12ch;margin-bottom:28px}
+.hero .tag{font:500 15px var(--sans);letter-spacing:.06em;color:var(--accent-on-deep);margin-bottom:24px}
+.hero .lead{font:400 clamp(20px,2.4vw,27px)/1.4 var(--serif);max-width:32ch;margin-bottom:22px}
+.hero p.sub{color:var(--deep-muted);max-width:56ch;margin-bottom:38px}
+.btns{display:flex;flex-wrap:wrap;gap:14px}
+.btn{display:inline-block;text-decoration:none;font:500 15px var(--sans);padding:14px 26px;border:1px solid var(--accent-on-deep);transition:background .2s,color .2s}
+.btn.primary{background:var(--accent-on-deep);color:#0E1B2C}
+.btn.primary:hover{background:#DDBB82}
+.btn.ghost{color:var(--deep-ink)}
+.btn.ghost:hover{background:rgba(255,255,255,.07)}
+
+section{padding:96px 0}
+.split{display:grid;grid-template-columns:1fr 1.5fr;gap:64px;align-items:start}
+.split > h2{position:sticky;top:110px}
+.rule{border-top:1px solid var(--line)}
+.alt{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+
+ul.plain{list-style:none;margin:20px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:10px 32px}
+ul.plain li{padding-left:18px;position:relative;font-size:16px}
+ul.plain li::before{content:"";position:absolute;left:0;top:.78em;width:8px;height:1px;background:var(--accent)}
+
+.services{display:grid;grid-template-columns:repeat(6,1fr);gap:0;border:1px solid var(--line);margin-top:40px}
+.svc{grid-column:span 2;padding:32px 28px;background:var(--bg);border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.svc:nth-child(4),.svc:nth-child(5){grid-column:span 3}
+.svc:nth-child(3),.svc:nth-child(5){border-right:0}
+.svc:nth-child(n+4){border-bottom:0}
+.svc p{font-size:16px;color:var(--muted);margin:0}
+
+.steps{list-style:none;counter-reset:s;margin:40px 0 0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:0;border-top:2px solid var(--ink)}
+.steps li{counter-increment:s;padding:24px 20px 0 0}
+.steps li::before{content:counter(s);display:block;font:500 15px var(--serif);color:var(--accent);margin-bottom:10px}
+.steps h3{font-size:19px}
+.steps p{font-size:15px;color:var(--muted)}
+
+.person{display:grid;grid-template-columns:auto 1fr;gap:36px;align-items:start}
+.mono{width:120px;height:120px;border:1px solid var(--accent);display:grid;place-items:center;font:400 40px var(--serif);color:var(--accent);letter-spacing:.04em}
+.role{font:500 15px var(--sans);color:var(--accent);margin-bottom:20px}
+
+.contact{background:var(--deep);color:var(--deep-ink);text-align:left}
+.contact p{color:var(--deep-muted)}
+.contact a.mail{font:400 clamp(20px,3.2vw,32px) var(--serif);color:var(--deep-ink);text-decoration:none;border-bottom:1px solid var(--accent-on-deep);overflow-wrap:anywhere}
+
+footer{background:#08111C;color:var(--deep-muted);padding:56px 0 40px;font-size:14px}
+.foot{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:40px}
+footer b{color:var(--deep-ink);font:600 14px var(--sans);letter-spacing:.2em;display:block;margin-bottom:6px}
+footer em{font-style:italic;font-family:var(--serif);font-size:16px}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+footer a{text-decoration:none}footer a:hover{color:var(--deep-ink)}
+.fine{margin-top:36px;padding-top:20px;border-top:1px solid #1B2A40;font-size:13px}
+
+@media (max-width:900px){
+ .menu-btn{display:block}
+ nav{position:absolute;left:0;right:0;top:100%;background:var(--deep);border-bottom:1px solid #1E2E44;display:none}
+ nav.open{display:block}
+ nav ul{flex-direction:column;gap:0;padding:8px 24px 16px}
+ nav a{display:block;padding:12px 0;font-size:16px}
+ .split,.foot{grid-template-columns:1fr;gap:28px}
+ .split > h2{position:static}
+ .services{grid-template-columns:1fr}
+ .svc,.svc:nth-child(4),.svc:nth-child(5){grid-column:auto;border-right:0;border-bottom:1px solid var(--line)}
+ .svc:last-child{border-bottom:0}
+ .steps{grid-template-columns:1fr;border-top:0}
+ .steps li{border-top:2px solid var(--ink);margin-bottom:12px}
+ ul.plain{grid-template-columns:1fr}
+ .person{grid-template-columns:1fr}
+ section{padding:72px 0}.hero{padding:80px 0 90px}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap bar">
+  <a class="logo" href="#home" aria-label="Morgan Executive Search home"><b>MORGAN EXECUTIVE SEARCH</b><span>CONFIDENTIAL EXECUTIVE &amp; BOARD SEARCH</span></a>
+  <button class="menu-btn" aria-expanded="false" aria-controls="nav" onclick="var n=document.getElementById('nav');var o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)">Menu</button>
+  <nav id="nav" aria-label="Main">
+   <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Search Services</a></li>
+    <li><a href="#process">Our Process</a></li>
+    <li><a href="#board">Board Search</a></li>
+    <li><a href="#executives">For Executives</a></li>
+    <li><a href="#contact">Contact</a></li>
+   </ul>
+  </nav>
+ </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+ <div class="wrap">
+  <h1>MORGAN EXECUTIVE SEARCH</h1>
+  <p class="tag">Confidential Executive &amp; Board Search</p>
+  <p class="lead">Identifying leadership for mandates where experience, discretion and strategic alignment matter.</p>
+  <p class="sub">Morgan Executive Search provides independent executive search consulting for organizations seeking senior leaders and board-level talent across critical leadership functions.</p>
+  <div class="btns">
+   <a class="btn primary" href="#contact">Discuss a Search</a>
+   <a class="btn ghost" href="#process">Our Search Process</a>
+  </div>
+ </div>
+</section>
+
+<section id="about">
+ <div class="wrap split">
+  <h2>About Morgan Executive Search</h2>
+  <div>
+   <p>Morgan Executive Search is an independent executive search practice led by Isabella Morgan, specializing in confidential executive and board-level assignments.</p>
+   <p>The practice is built on judgment, discretion and precision rather than recruitment volume. Each mandate is handled as a focused, consultative engagement, shaped around the organization's strategy, governance needs and the leadership profile the role requires.</p>
+   <ul class="plain">
+    <li>Targeted executive identification</li>
+    <li>Confidential outreach</li>
+    <li>Leadership assessment</li>
+    <li>Market mapping</li>
+    <li>Board search</li>
+    <li>Senior leadership appointments</li>
+    <li>Mandate-specific candidate evaluation</li>
+    <li>Structured client presentation</li>
+   </ul>
+  </div>
+ </div>
+</section>
+
+<section class="alt" id="isabella">
+ <div class="wrap">
+  <div class="person">
+   <div class="mono" aria-hidden="true">IM</div>
+   <div>
+    <h2 style="margin-bottom:6px">Isabella Morgan</h2>
+    <p class="role">Senior Executive Search Consultant</p>
+    <p>Isabella Morgan leads Morgan Executive Search and works on confidential executive and board-level assignments. Clients engage her directly, and each search is conducted with the same attention to discretion, rigor and fit from first conversation to final presentation.</p>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="services">
+ <div class="wrap">
+  <h2>Search Services</h2>
+  <p class="muted">Core areas of work for organizations, boards and nomination committees.</p>
+  <div class="services">
+   <article class="svc"><h3>Executive Search</h3><p>Confidential identification and assessment of senior executives for critical leadership appointments.</p></article>
+   <article class="svc"><h3>Board Search</h3><p>Identification and assessment of Independent Directors and board candidates against mandate-specific governance and competency requirements.</p></article>
+   <article class="svc"><h3>C-Suite &amp; Senior Leadership</h3><p>Search assignments involving CEO, COO, CFO, CHRO, CIO, CTO, CISO, Chief Strategy Officer and other senior leadership positions.</p></article>
+   <article class="svc"><h3>Functional Leadership</h3><p>Specialized executive searches across operations, finance, technology, cybersecurity, healthcare, commercial, human capital and other critical functions.</p></article>
+   <article class="svc"><h3>Leadership &amp; Market Mapping</h3><p>Targeted research and market mapping to identify leadership talent aligned with current or anticipated organizational requirements.</p></article>
+  </div>
+ </div>
+</section>
+
+<section class="alt" id="process">
+ <div class="wrap">
+  <h2>Our Search Process</h2>
+  <p class="muted">A structured sequence, adapted to the confidentiality needs of each mandate.</p>
+  <ol class="steps">
+   <li><h3>Mandate briefing</h3><p>Clarify the leadership need, context, success criteria and confidentiality requirements.</p></li>
+   <li><h3>Market mapping</h3><p>Research the relevant leadership landscape and define a targeted list of candidates.</p></li>
+   <li><h3>Confidential outreach</h3><p>Approach selected leaders directly and discreetly, without public advertising.</p></li>
+   <li><h3>Assessment</h3><p>Evaluate each candidate against the specific requirements of the mandate.</p></li>
+   <li><h3>Client presentation</h3><p>Present a considered shortlist with structured, comparable assessments.</p></li>
+  </ol>
+ </div>
+</section>
+
+<section id="board">
+ <div class="wrap split">
+  <h2>Board Search</h2>
+  <div>
+   <p>Morgan Executive Search supports boards, chairs and nomination committees in identifying Independent Directors and other board candidates.</p>
+   <p>Candidates are assessed against the governance needs, competency requirements and composition goals set out for the mandate, and presented in a clear, structured format that supports committee decision-making.</p>
+   <p>Board assignments are handled with particular discretion, including where a vacancy is not yet public.</p>
+  </div>
+ </div>
+</section>
+
+<section class="alt" id="executives">
+ <div class="wrap split">
+  <h2>For Executives</h2>
+  <div>
+   <p>Senior executives and prospective directors may be approached in confidence about mandates that fit their experience and direction.</p>
+   <p>Conversations are private, and no information about your interest or background is shared with a client without your agreement. If you would like to be considered for future leadership or board opportunities, you are welcome to introduce yourself.</p>
+   <div class="btns" style="margin-top:24px">
+    <a class="btn" style="border-color:var(--accent);color:var(--ink)" href="mailto:isabella.k.expert@gmail.com?subject=Confidential%20introduction">Introduce yourself in confidence</a>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section class="contact" id="contact">
+ <div class="wrap">
+  <h2>Discuss a Search</h2>
+  <p>To discuss a confidential executive or board mandate, contact Isabella Morgan directly.</p>
+  <p style="margin-top:28px"><a class="mail" href="mailto:isabella.k.expert@gmail.com?subject=Search%20enquiry">isabella.k.expert@gmail.com</a></p>
+ </div>
+</section>
+</main>
+
+<footer>
+ <div class="wrap">
+  <div class="foot">
+   <div>
+    <b>MORGAN EXECUTIVE SEARCH</b>
+    <em>Confidential Executive &amp; Board Search</em>
+    <p style="margin-top:22px;color:var(--deep-ink)">Isabella Morgan<br><span style="color:var(--deep-muted)">Senior Executive Search Consultant</span></p>
+    <a href="mailto:isabella.k.expert@gmail.com" style="color:var(--deep-ink)">isabella.k.expert@gmail.com</a>
+   </div>
+   <ul aria-label="Footer navigation">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Search Services</a></li>
+    <li><a href="#process">Our Process</a></li>
+   </ul>
+   <ul>
+    <li><a href="#board">Board Search</a></li>
+    <li><a href="#executives">For Executives</a></li>
+    <li><a href="#contact">Contact</a></li>
+   </ul>
+  </div>
+  <div class="fine">&copy; Morgan Executive Search. All enquiries are treated in confidence.</div>
+ </div>
+</footer>
+<script>
+document.querySelectorAll('nav a').forEach(function(a){a.addEventListener('click',function(){document.getElementById('nav').classList.remove('open')})});
+</script>
+</body>
+</html>
